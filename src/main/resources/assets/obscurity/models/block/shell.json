@@ -1,7 +1,8 @@
 {
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/shell"
+		"0": "obscurity:block/shell",
+		"particle": "obscurity:block/shell"
 	},
 	"elements": [
 		{

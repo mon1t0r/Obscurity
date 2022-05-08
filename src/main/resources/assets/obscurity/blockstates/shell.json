@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "obscurity:block/shell",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "obscurity:block/shell",
+      "y": 0
+    },
+    "facing=south": {
+      "model": "obscurity:block/shell",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "obscurity:block/shell",
+      "y": 270
+    }
+  }
+}

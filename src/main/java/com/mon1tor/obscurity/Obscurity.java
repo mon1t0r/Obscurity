@@ -3,12 +3,14 @@ package com.mon1tor.obscurity;
 import com.mojang.logging.LogUtils;
 import com.mon1tor.obscurity.block.ModBlocks;
 import com.mon1tor.obscurity.item.ModItems;
+import com.mon1tor.obscurity.world.feature.ModFeatures;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
@@ -19,12 +21,13 @@ public class Obscurity {
 
     public Obscurity() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         modEventBus.addListener(this::setup);
-        modEventBus.addListener(this::enqueueIMC);
-        modEventBus.addListener(this::processIMC);
+        modEventBus.addListener(this::clientSetup);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModFeatures.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -32,9 +35,7 @@ public class Obscurity {
     private void setup(final FMLCommonSetupEvent event) {
     }
 
-    private void enqueueIMC(final InterModEnqueueEvent event) {
-    }
-
-    private void processIMC(final InterModProcessEvent event) {
+    private void clientSetup(final FMLClientSetupEvent event) {
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SHELL.get(), RenderType.cutout());
     }
 }
