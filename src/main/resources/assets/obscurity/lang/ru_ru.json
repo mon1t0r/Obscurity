@@ -8,6 +8,23 @@
   "item.obscurity.rebis": "Ребис",
   "item.obscurity.hydragenum": "Гидраген",
 
+  "item.obscurity.bronze_ingot": "Бронзовый слиток",
+  "item.obscurity.tin_ingot": "Оловянный слиток",
+  "item.obscurity.silver_ingot": "Серебрянный слиток",
+  "item.obscurity.platinum_ingot": "Платиновый слиток",
+  "item.obscurity.lead_ingot": "Свинцовый слиток",
+  "item.obscurity.zinc_ingot": "Цинковый слиток",
+  "item.obscurity.bronze_nugget": "Кусочек бронзы",
+  "item.obscurity.tin_nugget": "Кусочек олова",
+  "item.obscurity.silver_nugget": "Кусочек серебра",
+  "item.obscurity.platinum_nugget": "Кусочек платины",
+  "item.obscurity.lead_nugget": "Кусочек свинца",
+  "item.obscurity.zinc_nugget": "Кусочек цинка",
+  "item.obscurity.raw_tin": "Рудное олово",
+  "item.obscurity.raw_silver": "Рудное серебро",
+  "item.obscurity.raw_platinum": "Рудная платина",
+  "item.obscurity.raw_lead": "Рудный свинец",
+  "item.obscurity.raw_zinc": "Рудный цинк",
   "item.obscurity.agate": "Агат",
   "item.obscurity.apatite": "Апатит",
   "item.obscurity.aquamarine": "Аквамарин",
@@ -37,10 +54,13 @@
   "item.obscurity.big_pearl": "Большая жемучжина",
   "item.obscurity.big_black_pearl": "Большая чёрная жемчужина",
 
+  "item.obscurity.copper_nugget": "Кусочек меди",
+
   "itemGroup.obscurityMaterials": "Материалы",
   "itemGroup.obscurityMisc": "Разное",
   "itemGroup.obscurityCatalysts": "Реагенты",
   "itemGroup.obscurityBlocks": "Блоки",
   "itemGroup.obscurityApparatus": "Приборы",
-  "itemGroup.obscurityEquipment": "Снаряжение"
+  "itemGroup.obscurityEquipment": "Снаряжение",
+  "itemGroup.obscurityDecorations": "Декорации"
 }

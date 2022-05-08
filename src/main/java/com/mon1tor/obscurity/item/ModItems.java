@@ -20,7 +20,24 @@ public class ModItems {
     public static final RegistryObject<Item> REBIS = ITEMS.register("rebis", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_CATALYSTS)));
     public static final RegistryObject<Item> HYDRAGENUM = ITEMS.register("hydragenum", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_CATALYSTS)));
 
-    public static final RegistryObject<Item> AGATE = ITEMS.register("agate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));   //METALLS
+    public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> ZINC_INGOT = ITEMS.register("zinc_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> TIN_NUGGET = ITEMS.register("tin_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> LEAD_NUGGET = ITEMS.register("lead_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> ZINC_NUGGET = ITEMS.register("zinc_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> RAW_LEAD = ITEMS.register("raw_lead", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> RAW_ZINC = ITEMS.register("raw_zinc", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> AGATE = ITEMS.register("agate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));            //GEMS
     public static final RegistryObject<Item> APATITE = ITEMS.register("apatite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
     public static final RegistryObject<Item> AQUAMARINE = ITEMS.register("aquamarine", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
     public static final RegistryObject<Item> AVENTURINE = ITEMS.register("aventurine", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
@@ -32,7 +49,7 @@ public class ModItems {
     public static final RegistryObject<Item> FLAWLESS_EMERALD = ITEMS.register("flawless_emerald", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
     public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
     public static final RegistryObject<Item> TANZANITE = ITEMS.register("tanzanite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
-    public static final RegistryObject<Item> WINE_STONE = ITEMS.register("wine_stone", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
+    public static final RegistryObject<Item> WINE_STONE = ITEMS.register("wine_stone", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));    //OTHER
     public static final RegistryObject<Item> CINNABAR = ITEMS.register("cinnabar", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
     public static final RegistryObject<Item> CINNABAR_DUST = ITEMS.register("cinnabar_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
     public static final RegistryObject<Item> PEARL_DUST = ITEMS.register("pearl_dust", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
@@ -49,6 +66,7 @@ public class ModItems {
     public static final RegistryObject<Item> BIG_PEARL = ITEMS.register("big_pearl", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MISC)));
     public static final RegistryObject<Item> BIG_BLACK_PEARL = ITEMS.register("big_black_pearl", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MISC)));
 
+    public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
