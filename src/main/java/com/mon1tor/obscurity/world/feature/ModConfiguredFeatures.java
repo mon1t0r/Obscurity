@@ -7,5 +7,5 @@ import net.minecraft.world.level.levelgen.feature.configurations.CountConfigurat
 
 public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<CountConfiguration, ?>> SHELL = FeatureUtils.register("shell",
-            ModFeatures.SHELL.get(), new CountConfiguration(4));
+            ModFeatures.SHELL.get(), new CountConfiguration(5));
 }
