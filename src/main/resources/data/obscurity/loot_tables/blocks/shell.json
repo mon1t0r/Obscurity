@@ -28,24 +28,11 @@
             },
             {
               "type": "minecraft:item",
-              "name": "obscurity:pearl",
+              "name": "obscurity:big_black_pearl",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 1
-                },
-                {
-                  "condition": "minecraft:survives_explosion"
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "obscurity:black_pearl",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 1
+                  "chance": 0.04
                 },
                 {
                   "condition": "minecraft:survives_explosion"
@@ -58,7 +45,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 1
+                  "chance": 0.0833
                 },
                 {
                   "condition": "minecraft:survives_explosion"
@@ -67,11 +54,24 @@
             },
             {
               "type": "minecraft:item",
-              "name": "obscurity:big_black_pearl",
+              "name": "obscurity:black_pearl",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 1
+                  "chance": 0.1365
+                },
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "obscurity:pearl",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3424
                 },
                 {
                   "condition": "minecraft:survives_explosion"
