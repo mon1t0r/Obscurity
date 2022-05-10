@@ -45,6 +45,36 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.25, -0.25],
+			"scale": [0.51, 0.51, 0.51]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.25, 0.75],
+			"scale": [0.51, 0.51, 0.51]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 8, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 8, 0.5]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [30, 135, 0],
+			"translation": [0.5, 4, 0]
+		},
+		"head": {
+			"translation": [0, 13.75, 0.5]
+		},
+		"fixed": {
+			"translation": [0, 5.75, -0.25]
+		}
+	},
 	"groups": [
 		{
 			"name": "shell",

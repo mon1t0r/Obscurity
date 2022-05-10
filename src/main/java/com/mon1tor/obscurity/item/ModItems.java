@@ -20,7 +20,7 @@ public class ModItems {
     public static final RegistryObject<Item> REBIS = ITEMS.register("rebis", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_CATALYSTS)));
     public static final RegistryObject<Item> HYDRAGENUM = ITEMS.register("hydragenum", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_CATALYSTS)));
 
-    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));   //METALLS
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));   //METALS
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));
     public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.OBSCURITY_MATERIALS)));

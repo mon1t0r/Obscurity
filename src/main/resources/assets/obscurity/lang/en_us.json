@@ -56,6 +56,18 @@
 
  "item.obscurity.copper_nugget": "Copper Nugget",
 
+ "block.obscurity.bronze_block": "Bronze Block",
+ "block.obscurity.tin_block": "Tin Block",
+ "block.obscurity.silver_block": "Silver Block",
+ "block.obscurity.platinum_block": "Platinum Block",
+ "block.obscurity.lead_block": "Lead Block",
+ "block.obscurity.zinc_block": "Zinc Block",
+ "block.obscurity.raw_tin_block": "Raw Tin Block",
+ "block.obscurity.raw_silver_block": "Raw Silver Block",
+ "block.obscurity.raw_platinum_block": "Raw Platinum",
+ "block.obscurity.raw_lead_block": "Raw Lead Block",
+ "block.obscurity.raw_zinc_block": "Raw Zinc BLock",
+
  "itemGroup.obscurityMaterials": "Materials",
  "itemGroup.obscurityMisc": "Misc",
  "itemGroup.obscurityCatalysts": "Catalysts",

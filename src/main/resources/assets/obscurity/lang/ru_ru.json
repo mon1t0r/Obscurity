@@ -56,6 +56,18 @@
 
   "item.obscurity.copper_nugget": "Кусочек меди",
 
+  "block.obscurity.bronze_block": "Бронзовый блок",
+  "block.obscurity.tin_block": "Оловянный блок",
+  "block.obscurity.silver_block": "Серберяный блок",
+  "block.obscurity.platinum_block": "Платиновый блок",
+  "block.obscurity.lead_block": "Свинцовый блок",
+  "block.obscurity.zinc_block": "Цинковый блок",
+  "block.obscurity.raw_tin_block": "Raw Tin Block",
+  "block.obscurity.raw_silver_block": "Raw Silver Block",
+  "block.obscurity.raw_platinum_block": "Raw Platinum",
+  "block.obscurity.raw_lead_block": "Raw Lead Block",
+  "block.obscurity.raw_zinc_block": "Raw Zinc BLock",
+
   "itemGroup.obscurityMaterials": "Материалы",
   "itemGroup.obscurityMisc": "Разное",
   "itemGroup.obscurityCatalysts": "Реагенты",
